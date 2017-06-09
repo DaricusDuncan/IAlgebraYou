@@ -1,0 +1,6 @@
+framework module Pods_IAlgebraYouUITests {
+  umbrella header "Pods-IAlgebraYouUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
