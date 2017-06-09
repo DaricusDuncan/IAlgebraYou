@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,12 +21,46 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Algebra " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vDm-9G-KUM">
+                                <rect key="frame" x="107" y="241" width="160" height="54"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <color key="textColor" red="0.94117647059999998" green="0.92408617319999997" blue="0.42111110029999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4F9-85-UQU">
+                                <rect key="frame" x="106" y="170" width="163" height="69"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="PG8-4F-qL7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <color key="textColor" red="0.94117647059999998" green="0.92408617319999997" blue="0.42111110029999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EY2-Lr-zS2">
+                                <rect key="frame" x="107" y="318" width="160" height="54"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                                <color key="textColor" red="0.94117647059999998" green="0.92408617319999997" blue="0.42111110029999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="vDm-9G-KUM" firstAttribute="centerX" secondItem="4F9-85-UQU" secondAttribute="centerX" id="1WQ-Pu-wmm"/>
+                            <constraint firstItem="4F9-85-UQU" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="150" id="2d8-mK-zEe"/>
+                            <constraint firstItem="vDm-9G-KUM" firstAttribute="leading" secondItem="EY2-Lr-zS2" secondAttribute="leading" id="6Q6-lL-F7E"/>
+                            <constraint firstItem="EY2-Lr-zS2" firstAttribute="top" secondItem="vDm-9G-KUM" secondAttribute="bottom" constant="23" id="T1l-Im-TV6"/>
+                            <constraint firstItem="vDm-9G-KUM" firstAttribute="top" secondItem="4F9-85-UQU" secondAttribute="bottom" constant="2" id="TCs-1F-CfJ"/>
+                            <constraint firstItem="4F9-85-UQU" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="90" id="f99-hM-7ei"/>
+                            <constraint firstItem="vDm-9G-KUM" firstAttribute="trailing" secondItem="EY2-Lr-zS2" secondAttribute="trailing" id="kSY-Rk-7v6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="4F9-85-UQU" secondAttribute="trailing" constant="90" id="v5m-43-r6o"/>
+                            <constraint firstItem="vDm-9G-KUM" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="91" id="zFo-fh-iU7"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
 </document>
