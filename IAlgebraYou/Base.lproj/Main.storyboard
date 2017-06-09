@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -37,22 +38,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email: " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2i7-Of-vOZ">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email: " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2i7-Of-vOZ">
                                 <rect key="frame" x="40" y="195" width="295" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VhD-A6-k7b">
-                                <rect key="frame" x="40" y="269" width="295" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password:" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VhD-A6-k7b">
+                                <rect key="frame" x="40" y="275" width="295" height="30"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XcZ-7o-GuK">
+                                <rect key="frame" x="277" y="324" width="58" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="OVK-lI-Thp"/>
+                                    <constraint firstAttribute="width" constant="58" id="sI8-F1-cW4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Submit"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" cyan="0.12417856355508168" magenta="0.31065538194444442" yellow="0.028649617814355426" black="0.075556506849315072" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XcZ-7o-GuK" secondAttribute="bottom" constant="309" id="4mW-WJ-JLB"/>
+                            <constraint firstItem="2i7-Of-vOZ" firstAttribute="leading" secondItem="VhD-A6-k7b" secondAttribute="leading" id="51T-uw-7BU"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XcZ-7o-GuK" secondAttribute="trailing" constant="24" id="7Ud-Sb-aXm"/>
+                            <constraint firstItem="2i7-Of-vOZ" firstAttribute="trailing" secondItem="XcZ-7o-GuK" secondAttribute="trailing" id="LZr-hp-CzG"/>
+                            <constraint firstItem="XcZ-7o-GuK" firstAttribute="top" secondItem="VhD-A6-k7b" secondAttribute="bottom" constant="19" id="SxT-SI-U1f"/>
+                            <constraint firstItem="VhD-A6-k7b" firstAttribute="top" secondItem="2i7-Of-vOZ" secondAttribute="bottom" constant="50" id="aDt-md-0De"/>
+                            <constraint firstItem="VhD-A6-k7b" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="24" id="acE-D6-OVW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="VhD-A6-k7b" secondAttribute="trailing" constant="24" id="frX-14-YcA"/>
+                            <constraint firstItem="XcZ-7o-GuK" firstAttribute="top" secondItem="VhD-A6-k7b" secondAttribute="bottom" constant="19" id="qFL-DD-Kia"/>
+                            <constraint firstItem="2i7-Of-vOZ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="175" id="tpU-hN-V6E"/>
+                            <constraint firstItem="2i7-Of-vOZ" firstAttribute="trailing" secondItem="VhD-A6-k7b" secondAttribute="trailing" id="ySZ-H4-3z7"/>
+                            <constraint firstItem="XcZ-7o-GuK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="261" id="yqg-8O-F8u"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="nGs-hn-MqT"/>
                 </viewController>
