@@ -57,7 +57,15 @@
                                     <constraint firstAttribute="width" constant="58" id="sI8-F1-cW4"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                <state key="normal" title="Submit"/>
+                                <state key="normal" title="Login"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pFh-8P-4wW">
+                                <rect key="frame" x="134" y="576" width="107" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Create Account"/>
+                                <connections>
+                                    <segue destination="vjr-mo-JA1" kind="show" id="nbx-ud-OlJ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" cyan="0.12417856355508168" magenta="0.31065538194444442" yellow="0.028649617814355426" black="0.075556506849315072" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
@@ -81,6 +89,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="32.799999999999997" y="107.49625187406298"/>
+        </scene>
+        <!--Create AccountVC-->
+        <scene sceneID="f6i-fd-wqp">
+            <objects>
+                <viewController id="vjr-mo-JA1" customClass="CreateAccountVC" customModule="IAlgebraYou" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kAD-Zg-bFP"/>
+                        <viewControllerLayoutGuide type="bottom" id="lf5-5n-MU8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="29I-8k-QoM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H8G-JO-Mvw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="781" y="110"/>
         </scene>
     </scenes>
 </document>

@@ -15,6 +15,7 @@
 		4C1EB1F31EE797310024176A /* IAlgebraYouTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1EB1F21EE797310024176A /* IAlgebraYouTests.swift */; };
 		4C1EB1FE1EE797310024176A /* IAlgebraYouUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1EB1FD1EE797310024176A /* IAlgebraYouUITests.swift */; };
 		4C1EB20C1EEA4E360024176A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C1EB20B1EEA4E360024176A /* GoogleService-Info.plist */; };
+		4CACFE821EF0CF9200C10534 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CACFE811EF0CF9200C10534 /* CreateAccountVC.swift */; };
 		A61ED60E86303CBEADCD40FA /* Pods_IAlgebraYouUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 628C1859FFD6FF9641821ADF /* Pods_IAlgebraYouUITests.framework */; };
 		BDC9AE46CADD712B61860541 /* Pods_IAlgebraYou.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38748C6B9085E3556FECD9C3 /* Pods_IAlgebraYou.framework */; };
 		D5A47E0CA9C1B5130F15E326 /* Pods_IAlgebraYouTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B81EECD65BB7FB8F87C47DB4 /* Pods_IAlgebraYouTests.framework */; };
@@ -54,6 +55,7 @@
 		4C1EB1FD1EE797310024176A /* IAlgebraYouUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAlgebraYouUITests.swift; sourceTree = "<group>"; };
 		4C1EB1FF1EE797310024176A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C1EB20B1EEA4E360024176A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4CACFE811EF0CF9200C10534 /* CreateAccountVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
 		628C1859FFD6FF9641821ADF /* Pods_IAlgebraYouUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IAlgebraYouUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B1B6293219C92AD4CB71B7D /* Pods-IAlgebraYou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IAlgebraYou.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IAlgebraYou/Pods-IAlgebraYou.debug.xcconfig"; sourceTree = "<group>"; };
 		A0EA24CCEEF92E9A7F9DD878 /* Pods-IAlgebraYou.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IAlgebraYou.release.xcconfig"; path = "Pods/Target Support Files/Pods-IAlgebraYou/Pods-IAlgebraYou.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 			children = (
 				4C1EB1DA1EE797300024176A /* AppDelegate.swift */,
 				4C1EB1DE1EE797310024176A /* Main.storyboard */,
+				4CACFE811EF0CF9200C10534 /* CreateAccountVC.swift */,
 				4C1EB1E41EE797310024176A /* Assets.xcassets */,
 				4C1EB1E61EE797310024176A /* LaunchScreen.storyboard */,
 				4C1EB1E91EE797310024176A /* Info.plist */,
@@ -439,6 +442,7 @@
 			files = (
 				4C1EB1E31EE797310024176A /* IAlgebraYou.xcdatamodeld in Sources */,
 				4C1EB1DB1EE797310024176A /* AppDelegate.swift in Sources */,
+				4CACFE821EF0CF9200C10534 /* CreateAccountVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
